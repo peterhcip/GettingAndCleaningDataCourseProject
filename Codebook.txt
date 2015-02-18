@@ -1,0 +1,53 @@
+Source:
+
+Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and Xavier Parra(2)
+1 - Smartlab - Non-Linear Complex Systems Laboratory
+DITEN - Università degli Studi di Genova, Genoa (I-16145), Italy. 
+2 - CETpD - Technical Research Centre for Dependency Care and Autonomous Living
+Universitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08800), Spain
+activityrecognition '@' smartlab.ws 
+
+
+Data Set Information:
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
+Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, 
+LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and 
+gyroscope, 3-axial linear acceleration and 3-axial angular velocity were captured at a constant rate of 50Hz.
+These signals were used to estimate variables of the 561 features in the original data set.
+
+For each record in the original data set, it is provided: 
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
+- Triaxial Angular velocity from the gyroscope. 
+- A 561-feature vector with time and frequency domain variables. 
+- Its activity label. 
+- An identifier of the subject who carried out the experiment.
+
+This TidyData data set is an extract of the original data set with 20 variables in each row.  
+
+The first two variables are:
+- Subject: a number label between 1 and 30 identifying the individual being measured
+- Activity: a 6-level factor identifying the activity being performed
+
+The following remaining 18 variables are each the mean of the corresponding measurements 
+for the particular individual performing the particular activity identified in the first two variables.
+Values of the features are normalized and bounded within [-1,1].  
+- BodyAccMeanX: mean of mean body acceleration in the X direction
+- BodyAccMeanY: mean of mean body acceleration in the Y direction
+- BodyAccMeanZ: mean of mean body acceleration in the Z direction
+- BodyAccStdX: mean of standard deviation of body acceleration in the X direction
+- BodyAccStdY: mean of standard deviation of body acceleration in the Y direction
+- BodyAccStdZ: mean of standard deviation of body acceleration in the Z direction
+- GravAccMeanX: mean of mean gravity acceleration in the X direction
+- GravAccMeanY: mean of mean gravity acceleration in the Y direction
+- GravAccMeanZ: mean of mean gravity acceleration in the Z direction
+- GravAccStdX: mean of standard deviation of gravity acceleration in the X direction
+- GravAccStdY: mean of standard deviation of gravity acceleration in the Y direction
+- GravAccStdZ: mean of standard deviation of gravity acceleration in the Z direction
+- BodyGyroMeanX: mean of mean angular velocity in the X direction
+- BodyGyroMeanY: mean of mean angular velocity in the Y direction
+- BodyGyroMeanZ: mean of mean angular velocity in the Z direction
+- BodyGyroStdX: mean of standard deviation of angular velocity in the X direction
+- BodyGyroStdY: mean of standard deviation of angular velocity in the Y direction
+- BodyGyroStdZ: mean of standard deviation of angular velocity in the Z direction
+
